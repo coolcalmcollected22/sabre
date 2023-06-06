@@ -1,0 +1,3 @@
+Magnet Encrypted Disk Detector - https://www.magnetforensics.com/free-tools
+
+Elcomsoft Encrypted Disk Hunter - https://blog.elcomsoft.com/2020/07/live-system-analysis-discovering-encrypted-disk-volumes/
