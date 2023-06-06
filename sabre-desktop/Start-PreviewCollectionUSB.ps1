@@ -2,7 +2,7 @@
 .SYNOPSIS
    Start-PreviewCollectionUSB.ps1
 .NOTES
-   Author:  Preston Coleman - pcoleman84@yahoo.com
+   Author:  Preston Coleman
 .DESCRIPTION
    Collects picture and video files by extension from target media
 #>
@@ -18,6 +18,7 @@ Write-Host
 
 # create collection folders
 $dump = Get-Date -Format s | ForEach-Object { $_ -replace ":", "-" }
+
 New-Item -Path . -Name $dump -ItemType "directory"
 
 New-Item -Path .\$dump\ -Name pictures -ItemType "directory"
@@ -40,12 +41,10 @@ Write-Host Capturing files...
 Write-Host
 
 # collect pictures + logging
-#New-Item -Path .\$dump\ -Name pictures -ItemType "directory"
-.\bin\upcopy.exe -p $target -d .\$dump\pictures -F .\bin\files-pics.txt -R --nodupe --flatten=1000 -i --logfile=.\$dump\logs-pics\upcopylog.txt!63 --bypass=.\bin\ignore-dirs.txt
+.\bin\upcopy.exe -p $target -d .\$dump\pictures -F .\bin\extensions-pictures-lite.txt -R --nodupe --flatten=1000 -i --logfile=.\$dump\logs-pics\upcopylog.txt!63 --bypass=.\bin\ignore-dirs.txt
 
 # collect videos + logging
-#New-Item -Path .\$dump\ -Name videos -ItemType "directory"
-.\bin\upcopy.exe -p $target -d .\$dump\videos -F .\bin\files-video.txt -R --nodupe --flatten=1000 -i --logfile=.\$dump\logs-videos\upcopylog.txt!63 --bypass=.\bin\ignore-dirs.txt
+.\bin\upcopy.exe -p $target -d .\$dump\videos -F .\bin\extensions-video-lite.txt -R --nodupe --flatten=1000 -i --logfile=.\$dump\logs-videos\upcopylog.txt!63 --bypass=.\bin\ignore-dirs.txt
 
 # record the script
 $sdate2 = Get-Date -Format s | ForEach-Object { $_ -replace ":", "-" }
