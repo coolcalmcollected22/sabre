@@ -1,0 +1,8 @@
+Add the following tools to this folder:
+
+kape - https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape
+upcopy.exe - https://www.dmares.com/maresware/html/upcopy.htm
+md5deep.exe - https://md5deep.sourceforge.net/
+
+
+If there is a preference for other tools they will need to be added and the script modified.
