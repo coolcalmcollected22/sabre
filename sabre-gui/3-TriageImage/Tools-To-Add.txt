@@ -1,1 +1,3 @@
 kape - https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
+
+Magnet Response - https://www.magnetforensics.com/resources/magnet-response/
