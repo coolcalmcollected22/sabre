@@ -1,0 +1,6 @@
+Kape
+Magnet Encrypted Disk Detector
+Elcomsoft Encrypted Disk Hunter
+md5deep
+upcopy
+winpmem

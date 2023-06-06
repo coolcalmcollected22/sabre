@@ -1,0 +1,5 @@
+7zip
+Belkasoft Ram Capturer
+FTK Imager
+Magnet Ram Capturer
+Magnet Response
