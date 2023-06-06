@@ -1,0 +1,1 @@
+Do not perfom analysis or review of triaged data on the host device. Do it on your mobile workstation.
