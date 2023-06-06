@@ -1,8 +1,0 @@
-Confirm the following software is installed:
-
-Axiom
-Acquire
-EnCase
-FTK Imager
-UFED 4PC
-Physical Analzyer
