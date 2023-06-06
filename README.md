@@ -9,9 +9,10 @@
 
 Meant to be simple and straight forward:
 - Download the repo
-- Add the desired folder to the desired location or drive
+- Add the desired folder or folder contents to the desired location or drive
 - Add the software listed in the folder(s) to the specific locations or add your own
-- Runs the scripts or tools as desired.
+  - If you add your own you will need to modify the scripts
+- Run the scripts or tools as desired.
 
 
 ## License
